@@ -6,16 +6,11 @@ import reportWebVitals from './reportWebVitals';
 
 //react sinJSX
 
-const titulo = React.createElement(
-  'h1',
-  {id: 'titulo', className: 'encabezado'},
-  'Hola Mundo' 
 
-)
 
 
 ReactDOM.render(
-  titulo,
+  <App/>,
   document.getElementById('root')
 );
 
