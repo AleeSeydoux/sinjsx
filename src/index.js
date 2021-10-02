@@ -2,20 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import reportWebVitals from './reportWebVitals'; 
-
-//react sinJSX
-
-const titulo = React.createElement(
-  'h1',
-  {id: 'titulo', className: 'encabezado'},
-  'Hola Mundo' 
-
-)
-
+import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
-  titulo,
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
   document.getElementById('root')
 );
 
