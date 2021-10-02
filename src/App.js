@@ -1,17 +1,16 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
+import React, { Component} from 'react';
 import './App.css';
 
-class App extends Component { 
-  render() {
+
+class App extends React.Component {
+  render(){
     return (
       React.createElement(
         'h1',
         {id: 'titulo', className: 'encabezado'},
-        'Hola Mundo' 
-      
+        'Hola mundo'
       )
-    );
+    )
   }
 }
 
